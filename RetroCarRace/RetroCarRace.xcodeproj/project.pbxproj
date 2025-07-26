@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C4EC07C2C6248DB009AC589 /* RetroCarRaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EC07B2C6248DB009AC589 /* RetroCarRaceApp.swift */; };
+		5C4EC07E2C6248DB009AC589 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EC07D2C6248DB009AC589 /* ContentView.swift */; };
+		5C4EC0802C6248DD009AC589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C4EC07F2C6248DD009AC589 /* Assets.xcassets */; };
+		5C4EC0832C6248DD009AC589 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C4EC0822C6248DD009AC589 /* Preview Assets.xcassets */; };
+		5C4EC08D2C6248DD009AC589 /* RetroCarRaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EC08C2C6248DD009AC589 /* RetroCarRaceTests.swift */; };
+		5C4EC0972C6248DD009AC589 /* RetroCarRaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EC0962C6248DD009AC589 /* RetroCarRaceUITests.swift */; };
+		5C4EC0992C6248DD009AC589 /* RetroCarRaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EC0982C6248DD009AC589 /* RetroCarRaceUITestsLaunchTests.swift */; };
+		5C4EC0A62C6248F0009AC589 /* RaceTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EC0A52C6248F0009AC589 /* RaceTrack.swift */; };
+		5C4EC0A82C624946009AC589 /* Pixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EC0A72C624946009AC589 /* Pixel.swift */; };
+		5C4EC0AA2C624E37009AC589 /* ScoreBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EC0A92C624E37009AC589 /* ScoreBoard.swift */; };
+		5C4EC0AC2C6250D0009AC589 /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EC0AB2C6250D0009AC589 /* TestingView.swift */; };
+		5C4EC0AE2C6254E5009AC589 /* RaceTrackInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EC0AD2C6254E5009AC589 /* RaceTrackInfo.swift */; };
+		5C4EC0B02C626B26009AC589 /* ControllsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EC0AF2C626B26009AC589 /* ControllsView.swift */; };
+		5C4EC0B22C626E23009AC589 /* ControllButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EC0B12C626E23009AC589 /* ControllButtons.swift */; };
+		5C4EC0B82C63D8EC009AC589 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C4EC0B52C63D8EC009AC589 /* explosion.wav */; };
+		5C4EC0BA2C63D8EC009AC589 /* reset.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C4EC0B72C63D8EC009AC589 /* reset.wav */; };
+		5C4EC0BC2C63D937009AC589 /* MediaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EC0BB2C63D937009AC589 /* MediaManager.swift */; };
+		5C4EC0BE2C63DA8F009AC589 /* speed_change.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C4EC0BD2C63DA8F009AC589 /* speed_change.wav */; };
+		5C4EC0C42C63DEA0009AC589 /* play_pause.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C4EC0C32C63DEA0009AC589 /* play_pause.wav */; };
+		5C4EC0C62C63DFAC009AC589 /* player_move.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C4EC0C52C63DFAC009AC589 /* player_move.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C4EC0892C6248DD009AC589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C4EC0702C6248DB009AC589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C4EC0772C6248DB009AC589;
+			remoteInfo = RetroCarRace;
+		};
+		5C4EC0932C6248DD009AC589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C4EC0702C6248DB009AC589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C4EC0772C6248DB009AC589;
+			remoteInfo = RetroCarRace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C4EC0782C6248DB009AC589 /* RetroCarRace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCarRace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4EC07B2C6248DB009AC589 /* RetroCarRaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCarRaceApp.swift; sourceTree = "<group>"; };
+		5C4EC07D2C6248DB009AC589 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C4EC07F2C6248DD009AC589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C4EC0822C6248DD009AC589 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C4EC0882C6248DD009AC589 /* RetroCarRaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCarRaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4EC08C2C6248DD009AC589 /* RetroCarRaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCarRaceTests.swift; sourceTree = "<group>"; };
+		5C4EC0922C6248DD009AC589 /* RetroCarRaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCarRaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4EC0962C6248DD009AC589 /* RetroCarRaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCarRaceUITests.swift; sourceTree = "<group>"; };
+		5C4EC0982C6248DD009AC589 /* RetroCarRaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCarRaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C4EC0A52C6248F0009AC589 /* RaceTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceTrack.swift; sourceTree = "<group>"; };
+		5C4EC0A72C624946009AC589 /* Pixel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixel.swift; sourceTree = "<group>"; };
+		5C4EC0A92C624E37009AC589 /* ScoreBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBoard.swift; sourceTree = "<group>"; };
+		5C4EC0AB2C6250D0009AC589 /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
+		5C4EC0AD2C6254E5009AC589 /* RaceTrackInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceTrackInfo.swift; sourceTree = "<group>"; };
+		5C4EC0AF2C626B26009AC589 /* ControllsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllsView.swift; sourceTree = "<group>"; };
+		5C4EC0B12C626E23009AC589 /* ControllButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllButtons.swift; sourceTree = "<group>"; };
+		5C4EC0B52C63D8EC009AC589 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		5C4EC0B72C63D8EC009AC589 /* reset.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = reset.wav; sourceTree = "<group>"; };
+		5C4EC0BB2C63D937009AC589 /* MediaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaManager.swift; sourceTree = "<group>"; };
+		5C4EC0BD2C63DA8F009AC589 /* speed_change.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = speed_change.wav; sourceTree = "<group>"; };
+		5C4EC0C32C63DEA0009AC589 /* play_pause.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = play_pause.wav; sourceTree = "<group>"; };
+		5C4EC0C52C63DFAC009AC589 /* player_move.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = player_move.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C4EC0752C6248DB009AC589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4EC0852C6248DD009AC589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4EC08F2C6248DD009AC589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C4EC06F2C6248DB009AC589 = {
+			isa = PBXGroup;
+			children = (
+				5C4EC07A2C6248DB009AC589 /* RetroCarRace */,
+				5C4EC08B2C6248DD009AC589 /* RetroCarRaceTests */,
+				5C4EC0952C6248DD009AC589 /* RetroCarRaceUITests */,
+				5C4EC0792C6248DB009AC589 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C4EC0792C6248DB009AC589 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4EC0782C6248DB009AC589 /* RetroCarRace.app */,
+				5C4EC0882C6248DD009AC589 /* RetroCarRaceTests.xctest */,
+				5C4EC0922C6248DD009AC589 /* RetroCarRaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C4EC07A2C6248DB009AC589 /* RetroCarRace */ = {
+			isa = PBXGroup;
+			children = (
+				5C4EC0C82C63E489009AC589 /* viewModel */,
+				5C4EC0C72C63E465009AC589 /* view */,
+				5C4EC0B32C63D8D3009AC589 /* resource */,
+				5C4EC07B2C6248DB009AC589 /* RetroCarRaceApp.swift */,
+				5C4EC07F2C6248DD009AC589 /* Assets.xcassets */,
+				5C4EC0812C6248DD009AC589 /* Preview Content */,
+				5C4EC0BB2C63D937009AC589 /* MediaManager.swift */,
+			);
+			path = RetroCarRace;
+			sourceTree = "<group>";
+		};
+		5C4EC0812C6248DD009AC589 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5C4EC0822C6248DD009AC589 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5C4EC08B2C6248DD009AC589 /* RetroCarRaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C4EC08C2C6248DD009AC589 /* RetroCarRaceTests.swift */,
+			);
+			path = RetroCarRaceTests;
+			sourceTree = "<group>";
+		};
+		5C4EC0952C6248DD009AC589 /* RetroCarRaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C4EC0962C6248DD009AC589 /* RetroCarRaceUITests.swift */,
+				5C4EC0982C6248DD009AC589 /* RetroCarRaceUITestsLaunchTests.swift */,
+			);
+			path = RetroCarRaceUITests;
+			sourceTree = "<group>";
+		};
+		5C4EC0B32C63D8D3009AC589 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				5C4EC0B42C63D8DE009AC589 /* sound */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		5C4EC0B42C63D8DE009AC589 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				5C4EC0BD2C63DA8F009AC589 /* speed_change.wav */,
+				5C4EC0C52C63DFAC009AC589 /* player_move.wav */,
+				5C4EC0B52C63D8EC009AC589 /* explosion.wav */,
+				5C4EC0B72C63D8EC009AC589 /* reset.wav */,
+				5C4EC0C32C63DEA0009AC589 /* play_pause.wav */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+		5C4EC0C72C63E465009AC589 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5C4EC07D2C6248DB009AC589 /* ContentView.swift */,
+				5C4EC0A52C6248F0009AC589 /* RaceTrack.swift */,
+				5C4EC0A72C624946009AC589 /* Pixel.swift */,
+				5C4EC0A92C624E37009AC589 /* ScoreBoard.swift */,
+				5C4EC0AB2C6250D0009AC589 /* TestingView.swift */,
+				5C4EC0AF2C626B26009AC589 /* ControllsView.swift */,
+				5C4EC0B12C626E23009AC589 /* ControllButtons.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5C4EC0C82C63E489009AC589 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5C4EC0AD2C6254E5009AC589 /* RaceTrackInfo.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C4EC0772C6248DB009AC589 /* RetroCarRace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C4EC09C2C6248DD009AC589 /* Build configuration list for PBXNativeTarget "RetroCarRace" */;
+			buildPhases = (
+				5C4EC0742C6248DB009AC589 /* Sources */,
+				5C4EC0752C6248DB009AC589 /* Frameworks */,
+				5C4EC0762C6248DB009AC589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetroCarRace;
+			productName = RetroCarRace;
+			productReference = 5C4EC0782C6248DB009AC589 /* RetroCarRace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C4EC0872C6248DD009AC589 /* RetroCarRaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C4EC09F2C6248DD009AC589 /* Build configuration list for PBXNativeTarget "RetroCarRaceTests" */;
+			buildPhases = (
+				5C4EC0842C6248DD009AC589 /* Sources */,
+				5C4EC0852C6248DD009AC589 /* Frameworks */,
+				5C4EC0862C6248DD009AC589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C4EC08A2C6248DD009AC589 /* PBXTargetDependency */,
+			);
+			name = RetroCarRaceTests;
+			productName = RetroCarRaceTests;
+			productReference = 5C4EC0882C6248DD009AC589 /* RetroCarRaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C4EC0912C6248DD009AC589 /* RetroCarRaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C4EC0A22C6248DD009AC589 /* Build configuration list for PBXNativeTarget "RetroCarRaceUITests" */;
+			buildPhases = (
+				5C4EC08E2C6248DD009AC589 /* Sources */,
+				5C4EC08F2C6248DD009AC589 /* Frameworks */,
+				5C4EC0902C6248DD009AC589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C4EC0942C6248DD009AC589 /* PBXTargetDependency */,
+			);
+			name = RetroCarRaceUITests;
+			productName = RetroCarRaceUITests;
+			productReference = 5C4EC0922C6248DD009AC589 /* RetroCarRaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C4EC0702C6248DB009AC589 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5C4EC0772C6248DB009AC589 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					5C4EC0872C6248DD009AC589 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5C4EC0772C6248DB009AC589;
+					};
+					5C4EC0912C6248DD009AC589 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 5C4EC0772C6248DB009AC589;
+					};
+				};
+			};
+			buildConfigurationList = 5C4EC0732C6248DB009AC589 /* Build configuration list for PBXProject "RetroCarRace" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C4EC06F2C6248DB009AC589;
+			productRefGroup = 5C4EC0792C6248DB009AC589 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C4EC0772C6248DB009AC589 /* RetroCarRace */,
+				5C4EC0872C6248DD009AC589 /* RetroCarRaceTests */,
+				5C4EC0912C6248DD009AC589 /* RetroCarRaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C4EC0762C6248DB009AC589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4EC0C42C63DEA0009AC589 /* play_pause.wav in Resources */,
+				5C4EC0B82C63D8EC009AC589 /* explosion.wav in Resources */,
+				5C4EC0C62C63DFAC009AC589 /* player_move.wav in Resources */,
+				5C4EC0BA2C63D8EC009AC589 /* reset.wav in Resources */,
+				5C4EC0832C6248DD009AC589 /* Preview Assets.xcassets in Resources */,
+				5C4EC0802C6248DD009AC589 /* Assets.xcassets in Resources */,
+				5C4EC0BE2C63DA8F009AC589 /* speed_change.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4EC0862C6248DD009AC589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4EC0902C6248DD009AC589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C4EC0742C6248DB009AC589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4EC0A82C624946009AC589 /* Pixel.swift in Sources */,
+				5C4EC0B02C626B26009AC589 /* ControllsView.swift in Sources */,
+				5C4EC0A62C6248F0009AC589 /* RaceTrack.swift in Sources */,
+				5C4EC0AA2C624E37009AC589 /* ScoreBoard.swift in Sources */,
+				5C4EC0BC2C63D937009AC589 /* MediaManager.swift in Sources */,
+				5C4EC07E2C6248DB009AC589 /* ContentView.swift in Sources */,
+				5C4EC0AE2C6254E5009AC589 /* RaceTrackInfo.swift in Sources */,
+				5C4EC0B22C626E23009AC589 /* ControllButtons.swift in Sources */,
+				5C4EC07C2C6248DB009AC589 /* RetroCarRaceApp.swift in Sources */,
+				5C4EC0AC2C6250D0009AC589 /* TestingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4EC0842C6248DD009AC589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4EC08D2C6248DD009AC589 /* RetroCarRaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4EC08E2C6248DD009AC589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4EC0972C6248DD009AC589 /* RetroCarRaceUITests.swift in Sources */,
+				5C4EC0992C6248DD009AC589 /* RetroCarRaceUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C4EC08A2C6248DD009AC589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C4EC0772C6248DB009AC589 /* RetroCarRace */;
+			targetProxy = 5C4EC0892C6248DD009AC589 /* PBXContainerItemProxy */;
+		};
+		5C4EC0942C6248DD009AC589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C4EC0772C6248DB009AC589 /* RetroCarRace */;
+			targetProxy = 5C4EC0932C6248DD009AC589 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C4EC09A2C6248DD009AC589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C4EC09B2C6248DD009AC589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C4EC09D2C6248DD009AC589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RetroCarRace/Preview Content\"";
+				DEVELOPMENT_TEAM = HJQ3MX24MY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alokode.RetroCarRace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C4EC09E2C6248DD009AC589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RetroCarRace/Preview Content\"";
+				DEVELOPMENT_TEAM = HJQ3MX24MY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alokode.RetroCarRace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C4EC0A02C6248DD009AC589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alokode.RetroCarRaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetroCarRace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RetroCarRace";
+			};
+			name = Debug;
+		};
+		5C4EC0A12C6248DD009AC589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alokode.RetroCarRaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetroCarRace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RetroCarRace";
+			};
+			name = Release;
+		};
+		5C4EC0A32C6248DD009AC589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alokode.RetroCarRaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RetroCarRace;
+			};
+			name = Debug;
+		};
+		5C4EC0A42C6248DD009AC589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alokode.RetroCarRaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RetroCarRace;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C4EC0732C6248DB009AC589 /* Build configuration list for PBXProject "RetroCarRace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4EC09A2C6248DD009AC589 /* Debug */,
+				5C4EC09B2C6248DD009AC589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C4EC09C2C6248DD009AC589 /* Build configuration list for PBXNativeTarget "RetroCarRace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4EC09D2C6248DD009AC589 /* Debug */,
+				5C4EC09E2C6248DD009AC589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C4EC09F2C6248DD009AC589 /* Build configuration list for PBXNativeTarget "RetroCarRaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4EC0A02C6248DD009AC589 /* Debug */,
+				5C4EC0A12C6248DD009AC589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C4EC0A22C6248DD009AC589 /* Build configuration list for PBXNativeTarget "RetroCarRaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4EC0A32C6248DD009AC589 /* Debug */,
+				5C4EC0A42C6248DD009AC589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C4EC0702C6248DB009AC589 /* Project object */;
+}
