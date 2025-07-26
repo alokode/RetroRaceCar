@@ -3,7 +3,7 @@
 Bring back the good old days of the 90s with this **nostalgic brick console race car game**, now beautifully recreated in **SwiftUI**!  
 This project is inspired by the iconic handheld brick games we all loved – simple, addictive, and endlessly fun. 🚗💨
 
-![Gameplay Screenshot](6BC1F17A-2105-43FE-8D66-948A7C0AA7B8.jpeg)
+![Gameplay Screenshot](game-play.gif)
 
 ---
 
